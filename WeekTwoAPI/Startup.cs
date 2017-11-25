@@ -17,7 +17,7 @@ namespace WeekTwoAPI
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            Debug.WriteLine("Starting Application.");
+            Console.WriteLine("Starting Application.");
         }
 
         public IConfiguration Configuration { get; }
